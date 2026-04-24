@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+.app {
+  padding: 40px;
+}
+
+h1 {
+  color: #38bdf8;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #38bdf8;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+.searchBar-button {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e293b;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.searchBar-button:hover {
+  background: #334155;
+}
+
+/* OUTPUT */
+.output {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.output img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid #334155;
+}
+
+/* POPUP */
+.popup {
+  position: absolute;
+  top: 60px;
+  background: #ef4444;
+  padding: 10px;
+  border-radius: 8px;
+  display: none;
+}
+
+.popup-wrapper {
+  font-size: 13px;
+}
+
+/* QR */
+#qrBox {
+  margin-top: 30px;
+}

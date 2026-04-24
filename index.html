@@ -1,0 +1,47 @@
+<!-- Rony Ahmmed EdTE-UFTB bdu.rony@gmail.com fb.com/Edtech.enng -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NamePixel AI Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- QR Code Library -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="app">
+        <h1>NamePixel AI Pro</h1>
+        <!-- INPUT SECTION -->
+        <div class="container">
+            <input type="text" id="nameInput" placeholder="Enter a name" maxlength="50">
+            <button id="enterButton"><b>Enter</b></button>
+            <a class="searchBar-button" id="downloadBtn">
+                <i class="fas fa-download"></i>
+            </a>
+            <a class="searchBar-button" id="qrCodeBtn">
+                <i class="fas fa-qrcode"></i>
+            </a>
+            <!-- POPUP -->
+            <div class="popup arrow-bottom" id="inputPopup">
+                <div class="popup-wrapper">
+                    <p id="popupText">Please enter letters from A-Z</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- OUTPUT -->
+        <div id="output" class="output"></div>
+
+        <!-- QR OUTPUT -->
+        <div id="qrBox"></div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
