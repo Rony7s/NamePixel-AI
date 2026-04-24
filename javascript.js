@@ -77,7 +77,7 @@ document.getElementById("qrCodeBtn").onclick = () => {
   qrBox.innerHTML = "";
 
   let name = input.value || "NamePixel AI By Rony Ahmmed";
-  let url = `${window.location.origin}?name=${name}`;
+  let url = `${window.location.origin}/NamePixel-AI/?name=${name}`;
 
   QRCode.toCanvas(document.createElement("canvas"), url, function (err, canvas) {
     if (!err) qrBox.appendChild(canvas);
